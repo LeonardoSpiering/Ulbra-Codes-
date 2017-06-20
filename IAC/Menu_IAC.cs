@@ -48,6 +48,9 @@ class Menu_IAC
 
         Dias = 365 * Idade;
         Horas = 24 * Dias; 
+		
+		Console.WriteLine("Voce ja viveu " + Dias + " dias e " + Horas + " horas");
+		Console.ReadLine();
     }
 
     static void MediaUlbra()
