@@ -19,6 +19,6 @@ class Exe5_AP1
 			r = Console.ReadLine();
 		}while(r == 's');
 		
-		Console.WriteLine("Foram salarios. Soma:  Media salarial: ", ss, t, t/ss)
+		Console.WriteLine("Foram" + ss + "salarios. Soma:" + t + "Media salarial:" + t/ss);
 	}
 }
